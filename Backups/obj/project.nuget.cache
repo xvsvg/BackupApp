@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qE5hCc7yDwJ3yDgi8PNxW360uy2jm82zDcMrSjCWrskXbS1hRtX5t0Rik0R5eAOV6xrCqEGZmvbEbdZfi4c1WQ==",
+  "success": true,
+  "projectFilePath": "D:\\git repositories\\BackupApp\\Backups\\Backups.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xvsvg\\.nuget\\packages\\zio\\0.16.1\\zio.0.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningLevel>5</WarningLevel>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Contracts\**" />
+      <Compile Remove="Exceptions\**" />
+      <Compile Remove="Extensions\**" />
+      <Compile Remove="Implementations\**" />
+      <EmbeddedResource Remove="Contracts\**" />
+      <EmbeddedResource Remove="Exceptions\**" />
+      <EmbeddedResource Remove="Extensions\**" />
+      <EmbeddedResource Remove="Implementations\**" />
+      <None Remove="Contracts\**" />
+      <None Remove="Exceptions\**" />
+      <None Remove="Extensions\**" />
+      <None Remove="Implementations\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Zio" Version="0.16.1" />
+    </ItemGroup>
+
+</Project>
